@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+
 import TextField from "@mui/material/TextField";
 import FormControl from "@mui/material/FormControl";
 import Visibility from "@mui/icons-material/Visibility";
@@ -8,9 +9,10 @@ import InputLabel from "@mui/material/InputLabel";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import IconButton from "@mui/material/IconButton";
 import Box from "@mui/material/Box";
-import AuthContext from "../auth/AuthContext";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+
+import AuthContext from "../auth/AuthContext";
 
 const style = {
   bgcolor: "background.paper",
