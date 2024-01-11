@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -8,9 +9,13 @@ import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import Divider from "@mui/material/Divider";
+
 import AuthContext from "../auth/AuthContext";
+
 import { useNavigate, useLocation, Link } from "react-router-dom";
+
 import SkillsPaper from "./SkillsPaper";
+
 import { styled } from "@mui/material/styles";
 
 const CardStyle = styled(Card)(({ theme }) => ({
